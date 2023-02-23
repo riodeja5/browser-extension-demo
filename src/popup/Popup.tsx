@@ -5,7 +5,7 @@ const Popup = (): ReactElement => {
   document.body.style.height = '15rem';
   return (
     <div className="flex h-screen items-center justify-center">
-      <p>どの言語にほんやくしますか？</p>
+      <p>どの言語に翻訳しますか？</p>
       <select name="target_lang">
         <option value="EN">英語</option>
         <option value="KO">韓国語</option>
